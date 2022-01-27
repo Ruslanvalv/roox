@@ -1,0 +1,36 @@
+.UserCard {
+  max-width: 420px;
+  width: 100%;
+  background: #f3f3f3;
+  border-radius: 8px;
+  padding: 10px;
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 11px;
+  line-height: 13px;
+
+  span {
+    color: #a3a3a3;
+    margin-right: 7px;
+  }
+
+  div {
+    margin-bottom: 7px;
+  }
+
+  div:last-child {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  a {
+    color: #4b51ef;
+    font-size: 12px;
+    line-height: 14px;
+    transition: opacity 0.3s ease-in-out;
+  }
+  a:hover {
+    text-decoration: underline;
+    opacity: 0.7;
+  }
+}

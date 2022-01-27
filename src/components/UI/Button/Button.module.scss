@@ -1,0 +1,28 @@
+.Button {
+  display: flex;
+  button {
+    background: #4b51ef;
+    border-radius: 5px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #fff;
+    border: 0;
+    padding: 5px 15px;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .SendBtn {
+    background: #52cf4f;
+    margin-left: auto;
+  }
+  button[disabled],
+  button[disabled]:hover {
+    background: #afafaf;
+    opacity: 1;
+    cursor: default;
+  }
+
+  button:hover {
+    opacity: 0.8;
+  }
+}

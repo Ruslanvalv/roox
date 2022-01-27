@@ -1,0 +1,43 @@
+.UserInfo {
+  margin: 13px 62px 25px 31px;
+  max-width: 438px;
+  .Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    h1 {
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 16px;
+      margin: 0;
+
+      color: #000000;
+    }
+  }
+}
+
+.Form {
+  padding: 20px 6px 19px 12px;
+  border: 1px solid #f3f3f3;
+  border-radius: 8px;
+  width: 61vw;
+  margin-bottom: 10px;
+  p {
+    font-size: 8px;
+    line-height: 9px;
+    margin-bottom: 3px;
+  }
+  label {
+    textarea {
+      resize: none;
+      height: 55px;
+
+      width: 100%;
+      padding: 5px 10px;
+      border: 1px solid #d8d8d8;
+      outline: none;
+      border-radius: 5px;
+    }
+  }
+}
